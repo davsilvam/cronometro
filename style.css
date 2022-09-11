@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@700&family=Poppins:wght@500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #aec3b0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #124559;
+    padding: 40px 20px 20px;
+    border-radius: 20px;
+    border: transparent;
+    box-shadow: 3px 3px 2px #2d3e40;
+}
+
+#timer {
+    height: 60px;
+    width: 100%;
+    background-color: #eff6e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#timer h1 {
+    color: #2D3E40;
+    font-size: 2.2em;
+    position: fixed;
+    font-family: 'Azeret Mono', monospace;
+}
+
+#buttons {
+    margin: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#buttons button {
+    width: 100px;
+    height: 30px;
+    border: transparent;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    background-color: #598392;
+    color: #eff6e0;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+#buttons button:disabled {
+    background-color: #01161e;
+    color: #e4f2e784;
+    cursor: default;
+}
