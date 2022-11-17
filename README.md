@@ -1,10 +1,11 @@
 # **Cronômetro**
 
-## :triangular_ruler: **Projeto**
+## :watch: **Projeto**
 Este projeto se baseia em cronômetro ou temporizador.
 
-## :link: **Link**
-*[Link do projeto.](https://davsilvam.github.io/cronometro/)*
+<p align="center">
+   <a href="https://davsilvam.github.io/cronometro/">Veja o projeto completo aqui.</a>
+</p>
 
 ## :art: **Visual do Projeto**
 ### *Desktop e Telas Maiores*
@@ -18,10 +19,6 @@ O projeto conta atualmente com:
 * Função *Começar* que iniciar o temporizador e retoma caso ele seja pausado;
 * Função *Pausar* que pausa o temporizador;
 * Função *Parar* que encerra a contagem e reinicia o temporizador.
-
-## :construction: **Futuras atualizações**
-Funcionalidades que poderão ser incluídas em breve no projeto:
-* Implementação da responsividade.
 
 ## :wrench: **Tecnologias**
 Tecnologias utilizadas no projeto.
